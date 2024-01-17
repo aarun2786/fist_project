@@ -11,7 +11,8 @@ job = [
   {
     "id": 2,
     'title': "Accountant",
-    'location':'Tumkur'
+    'location':'Tumkur',
+     'Package': '12,00,000'
   }
   ,
   {
