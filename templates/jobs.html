@@ -1,0 +1,21 @@
+
+
+<div class="row px-4 border-bottom">
+    <div class="col">
+      <div class ="px-4 pb-0">
+        <h4>{{job['title']}}</h4>
+      </div>
+      <div class = "px-4 ">
+          Location :{{job['location']}}
+      </div> 
+      <div class = "px-4 pb-1"> {% if 'Package' in job  %}
+         <div >
+           Package :{{job['Package']}} 
+         </div> 
+          {% endif%}
+      </div>
+    </div>
+  <div class="col text-end pt-3">
+        <button type="button" class="btn btn-info">Apply</button> 
+  </div> 
+</div>
